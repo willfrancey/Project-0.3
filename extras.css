@@ -1,0 +1,41 @@
+.after::after {
+    content: " [This is an after tag]";
+    color: purple
+}
+
+.hover:hover {
+    background-color: rgba(234, 0, 255, 0.3)
+}
+
+div {
+    transition: ease-in-out 300ms;
+}
+
+button:hover {
+    background-color: black;
+    color: white
+}
+
+button {
+    transition: ease-in-out 300ms;
+    animation: float 2s infinite alternate-reverse;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(10px)
+    }
+}
+
+
+.nav__link {
+    color: blue
+}
+
+.nav__link--active {
+    font-weight: 600;
+    color: purple
+}

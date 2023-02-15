@@ -1,0 +1,26 @@
+
+
+.major {
+    width: 100%;
+    max-width: 200px; 
+    background-color: darkslategray;
+    color: ghostwhite;
+    border: 2px solid greenyellow;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "roboto", sans-serif;
+}
+
+.tester {
+    color: pink;
+    background-color: darkmagenta;
+}
+
+#two {
+    color: blue
+}
+
+section {
+    height: 80vh;
+    border: 1px solid black
+}
